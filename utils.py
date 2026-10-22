@@ -4,3 +4,7 @@ def clean(text):
 
 def shout(text):
     return clean(text).upper()
+
+
+def whisper(text):
+    return clean(text) + '...'
